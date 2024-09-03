@@ -117,7 +117,6 @@ void main() {
         statusCode: 500,
       ),
     ));
-
     verify(() => client.get(
       Uri.https(kBaseUrlWithoutHttps, "/test-api/users"),
     )).called(1);

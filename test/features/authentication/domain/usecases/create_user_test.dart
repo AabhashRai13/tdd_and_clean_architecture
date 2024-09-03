@@ -19,7 +19,7 @@ void main() {
     repository = MockAuthenticationRepository();
     usecase = CreateUser(repository);
   });
-  const params = CreateUseParams.empty();
+  const params = CreateUserParams.empty();
   test('This Should call the [AuthenticationRepository.createUser]', () async {
     // Arrange
 // STUB
